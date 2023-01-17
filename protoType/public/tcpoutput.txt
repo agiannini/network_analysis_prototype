@@ -1,0 +1,4 @@
+
+Capturing on 'Wi-Fi: en0'
+ ** (tshark:10057) 20:07:13.488686 [Main MESSAGE] -- Capture started.
+ ** (tshark:10057) 20:07:13.489875 [Main MESSAGE] -- File: "/var/tmp/wireshark_Wi-Fi6OBRY1.pcapng"
