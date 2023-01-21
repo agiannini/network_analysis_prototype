@@ -1,0 +1,218 @@
+Frame 1558: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface en0, id 0
+    Interface id: 0 (en0)
+        Interface name: en0
+        Interface description: Ethernet
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jan 16, 2023 21:26:46.117411000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1673922406.117411000 seconds
+    [Time delta from previous captured frame: 0.001237000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 16.422319000 seconds]
+    Frame Number: 1558
+    Frame Length: 78 bytes (624 bits)
+    Capture Length: 78 bytes (624 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp]
+Ethernet II, Src: Apple_e9:91:39 (4c:20:b8:e9:91:39), Dst: ARRISGro_04:55:63 (2c:7e:81:04:55:63)
+    Destination: ARRISGro_04:55:63 (2c:7e:81:04:55:63)
+        Address: ARRISGro_04:55:63 (2c:7e:81:04:55:63)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Apple_e9:91:39 (4c:20:b8:e9:91:39)
+        Address: Apple_e9:91:39 (4c:20:b8:e9:91:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.7, Dst: 10.0.0.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 64
+    Identification: 0x0000 (0)
+    Flags: 0x40, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 255
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.7
+    Destination Address: 10.0.0.1
+Transmission Control Protocol, Src Port: 55271, Dst Port: 7, Seq: 0, Len: 0
+    Source Port: 55271
+    Destination Port: 7
+    [Stream index: 79]
+    [Conversation completeness: Incomplete (0)]
+    [TCP Segment Len: 0]
+    Sequence Number: 0    (relative sequence number)
+    Sequence Number (raw): 1392725577
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 0
+    Acknowledgment number (raw): 0
+    1011 .... = Header Length: 44 bytes (11)
+    Flags: 0x002 (SYN)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...0 .... = Acknowledgment: Not set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..1. = Syn: Set
+            [Expert Info (Chat/Sequence): Connection establish request (SYN): server port 7]
+                [Connection establish request (SYN): server port 7]
+                [Severity level: Chat]
+                [Group: Sequence]
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ··········S·]
+    Window: 65535
+    [Calculated window size: 65535]
+    Checksum: 0x143a [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (24 bytes), Maximum segment size, No-Operation (NOP), Window scale, No-Operation (NOP), No-Operation (NOP), Timestamps, SACK permitted, End of Option List (EOL)
+        TCP Option - Maximum segment size: 1460 bytes
+            Kind: Maximum Segment Size (2)
+            Length: 4
+            MSS Value: 1460
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - Window scale: 6 (multiply by 64)
+            Kind: Window Scale (3)
+            Length: 3
+            Shift count: 6
+            [Multiplier: 64]
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - Timestamps: TSval 2026464360, TSecr 0
+            Kind: Time Stamp Option (8)
+            Length: 10
+            Timestamp value: 2026464360
+            Timestamp echo reply: 0
+        TCP Option - SACK permitted
+            Kind: SACK Permitted (4)
+            Length: 2
+        TCP Option - End of Option List (EOL)
+            Kind: End of Option List (0)
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.000000000 seconds]
+        [Time since previous frame in this TCP stream: 0.000000000 seconds]
+
+Frame 3750: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface en0, id 0
+    Interface id: 0 (en0)
+        Interface name: en0
+        Interface description: Ethernet
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jan 16, 2023 21:26:51.922058000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1673922411.922058000 seconds
+    [Time delta from previous captured frame: 0.003224000 seconds]
+    [Time delta from previous displayed frame: 5.804647000 seconds]
+    [Time since reference or first frame: 22.226966000 seconds]
+    Frame Number: 3750
+    Frame Length: 78 bytes (624 bits)
+    Capture Length: 78 bytes (624 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp]
+Ethernet II, Src: Apple_e9:91:39 (4c:20:b8:e9:91:39), Dst: 5e:a4:1e:7b:35:07 (5e:a4:1e:7b:35:07)
+    Destination: 5e:a4:1e:7b:35:07 (5e:a4:1e:7b:35:07)
+        Address: 5e:a4:1e:7b:35:07 (5e:a4:1e:7b:35:07)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Apple_e9:91:39 (4c:20:b8:e9:91:39)
+        Address: Apple_e9:91:39 (4c:20:b8:e9:91:39)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.7, Dst: 10.0.0.123
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 64
+    Identification: 0x0000 (0)
+    Flags: 0x40, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 255
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.7
+    Destination Address: 10.0.0.123
+Transmission Control Protocol, Src Port: 64907, Dst Port: 7, Seq: 0, Len: 0
+    Source Port: 64907
+    Destination Port: 7
+    [Stream index: 1164]
+    [Conversation completeness: Incomplete (0)]
+    [TCP Segment Len: 0]
+    Sequence Number: 0    (relative sequence number)
+    Sequence Number (raw): 4153466247
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 0
+    Acknowledgment number (raw): 0
+    1011 .... = Header Length: 44 bytes (11)
+    Flags: 0x002 (SYN)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...0 .... = Acknowledgment: Not set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..1. = Syn: Set
+            [Expert Info (Chat/Sequence): Connection establish request (SYN): server port 7]
+                [Connection establish request (SYN): server port 7]
+                [Severity level: Chat]
+                [Group: Sequence]
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ··········S·]
+    Window: 65535
+    [Calculated window size: 65535]
+    Checksum: 0x14b4 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (24 bytes), Maximum segment size, No-Operation (NOP), Window scale, No-Operation (NOP), No-Operation (NOP), Timestamps, SACK permitted, End of Option List (EOL)
+        TCP Option - Maximum segment size: 1460 bytes
+            Kind: Maximum Segment Size (2)
+            Length: 4
+            MSS Value: 1460
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - Window scale: 6 (multiply by 64)
+            Kind: Window Scale (3)
+            Length: 3
+            Shift count: 6
+            [Multiplier: 64]
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - Timestamps: TSval 3505158234, TSecr 0
+            Kind: Time Stamp Option (8)
+            Length: 10
+            Timestamp value: 3505158234
+            Timestamp echo reply: 0
+        TCP Option - SACK permitted
+            Kind: SACK Permitted (4)
+            Length: 2
+        TCP Option - End of Option List (EOL)
+            Kind: End of Option List (0)
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.000000000 seconds]
+        [Time since previous frame in this TCP stream: 0.000000000 seconds]
+

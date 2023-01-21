@@ -1,0 +1,38 @@
+Capturing on 'Wi-Fi: en0'
+tshark: The capture session could not be initiated on capture device "en0" (You don't have permission to capture on that device).
+Please check to make sure you have sufficient permissions.
+
+If you installed Wireshark using the package from wireshark.org, close this dialog and click on the "installing ChmodBPF" link in "You can fix this by installing ChmodBPF." on the main screen, and then complete the installation procedure.
+tshark: 
+0 packets captured
+Capturing on 'Wi-Fi: en0'
+ ** (tshark:14433) 20:48:26.030200 [Main MESSAGE] -- Capture started.
+ ** (tshark:14433) 20:48:26.034070 [Main MESSAGE] -- File: "/var/tmp/wireshark_Wi-FiE2LVY1.pcapng"
+Capturing on 'Wi-Fi: en0'
+tshark: The capture session could not be initiated on capture device "en0" (You don't have permission to capture on that device).
+Please check to make sure you have sufficient permissions.
+
+If you installed Wireshark using the package from wireshark.org, close this dialog and click on the "installing ChmodBPF" link in "You can fix this by installing ChmodBPF." on the main screen, and then complete the installation procedure.
+tshark: 
+0 packets captured
+tshark: 
+19 packets captured
+26576  26.437162   10.0.0.231 → 10.0.0.148   TCP 58 63104 → 7 [SYN] Seq=0 Win=1024 Len=0 MSS=1460
+26775  26.537768   10.0.0.231 → 10.0.0.182   TCP 58 63104 → 7 [SYN] Seq=0 Win=1024 Len=0 MSS=1460
+26870  26.555377   10.0.0.231 → 10.0.0.254   TCP 58 63104 → 7 [SYN] Seq=0 Win=1024 Len=0 MSS=1460
+30216  27.867993   10.0.0.231 → 10.0.0.1     TCP 58 63104 → 7 [SYN] Seq=0 Win=1024 Len=0 MSS=1460
+30285  27.974292   10.0.0.231 → 10.0.0.1     TCP 58 63106 → 7 [SYN] Seq=0 Win=1024 Len=0 MSS=1460
+30303  28.076187   10.0.0.231 → 10.0.0.1     TCP 58 63108 → 7 [SYN] Seq=0 Win=1024 Len=0 MSS=1460
+33761  30.449368   10.0.0.231 → 10.0.0.7     TCP 58 63104 → 7 [SYN] Seq=0 Win=1024 Len=0 MSS=1460
+64949 166.279850   10.0.0.231 → 10.0.0.182   TCP 58 42108 → 7 [SYN] Seq=0 Win=1024 Len=0 MSS=1460
+65022 166.385557   10.0.0.231 → 10.0.0.182   TCP 58 42110 → 7 [SYN] Seq=0 Win=1024 Len=0 MSS=1460
+65055 166.494323   10.0.0.231 → 10.0.0.182   TCP 58 42112 → 7 [SYN] Seq=0 Win=1024 Len=0 MSS=1460
+65226 166.539643   10.0.0.231 → 10.0.0.148   TCP 58 42108 → 7 [SYN] Seq=0 Win=1024 Len=0 MSS=1460
+65273 166.559728   10.0.0.231 → 10.0.0.1     TCP 58 42108 → 7 [SYN] Seq=0 Win=1024 Len=0 MSS=1460
+65353 166.591147   10.0.0.231 → 10.0.0.254   TCP 58 42108 → 7 [SYN] Seq=0 Win=1024 Len=0 MSS=1460
+66830 167.823751   10.0.0.231 → 10.0.0.7     TCP 58 42108 → 7 [SYN] Seq=0 Win=1024 Len=0 MSS=1460
+75544 1925.283692     10.0.0.7 → 10.0.0.231   TCP 60 35350 → 7 [SYN] Seq=0 Win=1024 Len=0 MSS=1460
+77875 2096.613100     10.0.0.7 → 10.0.0.231   TCP 60 45265 → 7 [SYN] Seq=0 Win=1024 Len=0 MSS=1460
+91578 3310.803622     10.0.0.7 → 10.0.0.231   TCP 60 46416 → 7 [SYN] Seq=0 Win=1024 Len=0 MSS=1460
+94102 3353.729560     10.0.0.7 → 10.0.0.231   TCP 60 55596 → 7 [SYN] Seq=0 Win=1024 Len=0 MSS=1460
+94111 3353.729569     10.0.0.7 → 10.0.0.231   TCP 60 55598 → 7 [SYN] Seq=0 Win=1024 Len=0 MSS=1460

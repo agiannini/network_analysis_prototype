@@ -1,0 +1,24 @@
+
+#!/bin/sh
+# MUST EXECUTE THIS IN BACKGROUND 
+
+
+sudo pkill -f tshark
+sudo pkill -f nmap
+
+
+HOSTDIR=/Users/alexgiannini/Desktop/capstone/network_analysis_prototype/protoType
+
+echo hostdir is $HOSTDIR
+echo "" > $HOSTDIR/public/tcpoutput.txt
+echo "" > $HOSTDIR/public/icmpoutput.txt
+echo "" > $HOSTDIR/public/udpoutput.txt
+
+
+tshark -Y "tcp.dstport==7" -V > $HOSTDIR/public/tcpoutput.txt &
+tshark -Y "icmp.type==8" -V > $HOSTDIR/public/icmpoutput.txt &
+tshark -Y "udp.dstport==7" -V > $HOSTDIR/public/udpoutput.txt &
+
+
+
+

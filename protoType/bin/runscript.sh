@@ -1,22 +1,24 @@
+
 #!/bin/sh
+# Problem, executing in the foreground an script never completes 
 
 
-sudo pkill -f tshark
-sudo pkill -f nmap
+pkill -f tshark
+pkill -f nmap
 
 
-HOSTDIR=/Users/alex/Desktop/capstone/network_analysis_prototype/protoType/public
+HOSTDIR=/Users/alexgiannini/Desktop/capstone/network_analysis_prototype/protoType
 
-echo "" > $HOSTDIR/tcpoutput.txt
-echo "" > $HOSTDIR/icmpoutput.txt
-echo "" > $HOSTDIR/udpoutput.txt
-
-
-nohup sudo tshark -Y "tcp.dstport==7" >> $HOSTDIR/tcpoutput.txt &
-
-nohup sudo tshark -Y "icmp.type==8" >> $HOSTDIR/icmpoutput.txt &
-
-nohup sudo tshark -Y "udp.dstport==7" >> $HOSTDIR/udpoutput.txt &
+echo hostdir is $HOSTDIR
+echo "" > $HOSTDIR/public/tcpoutput.txt
+echo "" > $HOSTDIR/public/icmpoutput.txt
+echo "" > $HOSTDIR/public/udpoutput.txt
 
 
+nohup tshark -Y "tcp.dstport==7" -V > $HOSTDIR/public/tcpoutput.txt &
+nohup tshark -Y "icmp.type==8" -V > $HOSTDIR/public/icmpoutput.txt &
+nohup tshark -Y "udp.dstport==7" -V > $HOSTDIR/public/udpoutput.txt &
 
+
+
+exit

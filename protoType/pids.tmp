@@ -1,0 +1,4 @@
+  501  2609     1   0  9:08PM ttys000    0:06.92 tshark -Y tcp.dstport==7 -V
+  501  2610     1   0  9:08PM ttys000    0:06.43 tshark -Y icmp.type==8 -V
+  501  2611     1   0  9:08PM ttys000    0:06.86 tshark -Y udp.dstport==7 -V
+  501  2808  2806   0  9:19PM ttys000    0:00.00 grep tshark

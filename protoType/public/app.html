@@ -2,6 +2,8 @@
 
 <head>
 <!-- force browser to reload every time -->
+ <meta http-equiv="refresh" content="5">
+
 <meta http-equiv="cache-control" content="no-cache, must-revalidate, post-check=0, pre-check=0" />
 <meta http-equiv="cache-control" content="max-age=0" />
 <meta http-equiv="expires" content="0" />
@@ -15,13 +17,13 @@ function test(){
 
 function startScan(){
 	console.log('starting the scan');
-	fetch('/run-nmap.sh')
+	fetch('/run-nmap')
 }
 
 
 function resetScan(){
 	console.log('reseting wirewshark and stop nmap');
-        fetch('/reset-scan.sh')
+        fetch('/reset')
 
 }
 </script>
@@ -60,7 +62,7 @@ ONAAT Open Network Analysis Aggregator Tool
 
   <div class="col-lg-4 mx-5">
 	<div>
-  <legend>Reset Wireshark and Stop Nmap</legend>
+  <legend>Start Scanning Your Network with Wireshark</legend>
   <div class="col-auto">
     <input type="text" readonly class="form-control-plaintext" id="Range" value="Reset Wireshark and Stop NMap">
   </div>
@@ -79,7 +81,7 @@ ONAAT Open Network Analysis Aggregator Tool
 <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
   <div class="card-body">
     <h5 class="card-title">ICMP Ping Sweep</h5>
-    <p class="card-text"><object data="icmpoutput.txt" ></object> </p>
+    <p class="card-text"><object data="icmpoutput.txt" height='100%' ></object> </p>
   </div>
 </div>
 </div>
@@ -87,7 +89,7 @@ ONAAT Open Network Analysis Aggregator Tool
 <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
   <div class="card-body">
     <h5 class="card-title">TCP Ping Sweep</h5>
-    <p class="card-text"><object data="tcpoutput.txt" ></object> </p>
+    <p class="card-text"><object data="tcpoutput.txt" height='100%' ></object> </p>
   </div>
 </div>
 </div>
@@ -95,7 +97,7 @@ ONAAT Open Network Analysis Aggregator Tool
 <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
   <div class="card-body">
     <h5 class="card-title">UDP Ping Sweep</h5>
-    <p class="card-text"><object data="udpoutput.txt" ></object> </p>
+    <p class="card-text"><object data="udpoutput.txt" height='100%'></object> </p>
 </div>
 </div>
 </div>

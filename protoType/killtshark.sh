@@ -1,7 +1,7 @@
 #!/bin/sh
 
 
-ps -ef | grep node | grep -v killnode.sh > pids.tmp
+ps -ef | grep tshark | grep -v killtshark.sh > pids.tmp
 
 while read line;
 do
